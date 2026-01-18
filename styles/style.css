@@ -1,2 +1,27 @@
 @import "tailwindcss"
 
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* google font  */
+
+/* shared style  */
+
+:root{
+    --primary-font-family:"Inter", sans-serif;
+    --primary-gradient:linear-gradient(45deg ,#F7E93F,#FB09B4,#9100F8);
+    --container-max-width:1200px;
+}
+
+.inter-font {
+  font-family: var(--primary-font-family);
+  
+}
+
+.primary-gradient{
+    background: var(--primary-gradient);
+}
+
+.container-max-width {
+    max-width: var(--container-max-width);
+}
